@@ -1,0 +1,99 @@
+As a player
+So that I can prepare for the game
+I would like to place a ship in a board location
+
+As a player
+So that I can play a more interesting game
+I would like to have a range of ship sizes to choose from
+
+As a player
+So the game is more fun to play
+I would like a nice command line interface that lets me enter ship positions and
+shots using commands (rather than using IRB to interact with objects)
+
+As a player
+So that I can create a layout of ships to outwit my opponent
+I would like to be able to choose the directions my ships face in
+
+As a player
+So that I can have a coherent game
+I would like ships to be constrained to be on the board
+
+As a player
+So that I can have a coherent game
+I would like ships to be constrained not to overlap
+
+As a player
+So that I can win the game
+I would like to be able to fire at my opponent's board
+
+As a player
+So that I can refine my strategy
+I would like to know when I have sunk an opponent's ship
+
+As a player
+So that I know when to finish playing
+I would like to know when I have won or lost
+
+As a player
+So that I can consider my next shot
+I would like to be able to see my hits and misses so far
+
+As a player
+So that I can play against a human opponent
+I would like to play a two-player game
+
+OWN DIFFERENT KEYS FOR SHIPS-
+HIT
+MISSED
+SAFE
+SEA
+
+ENEMY DIFFERENT KEYS FOR SHIPS-
+HIT
+MISSED
+UNKNOWN
+
+SHIP
+
+c1
+"abcd".transform("12345")
+
+ARRAY - OBJECT.NEW(5, NAME, )
+
+Check (tablelength -shiplength - position)negative?
+Check each_postiton includes sea then do thing
+
+
+OBJECT-(name, length)
+destroyer - F@@@F
+@LENGTH
+
+F@@ c3 vert
+ ABCD               
+1~~~~
+2~~~~
+3~~@~
+4~~@~
+
+Y1={X1=>Hit,X2=>Safe,X3=> Sea,X4 => Missed}
+Y2={X1,X2,X3,X4}
+Y3={X1,X2,X3,X4}
+Y4={X1,X2,X3,4X}
+
+A  - ENEMY        
+ ABCD               
+1x_..   
+2X...
+3_...
+4.XXX 
+
+A - own
+ ABCD               
+1@@@~
+2oooo
+3X~@~
+4X~@~
+
+little x when hit
+big X when destroyed
